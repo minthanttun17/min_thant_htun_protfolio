@@ -46,6 +46,10 @@
     .es-container{
         width: 600px;
     }
+
+    .association{
+        width: 400px;
+    }
 }
 
 @media  screen and (max-width: 560px) {
@@ -85,4 +89,9 @@
     .es-container{
         width: 300px;
     }
+
+    .association{
+        width: 200px;
+    }
+    
 }
