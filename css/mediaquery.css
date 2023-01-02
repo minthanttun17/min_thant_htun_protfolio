@@ -74,6 +74,10 @@
         width: 300px;
     }
 
+    .projects-container{
+        padding: 10px;
+    }
+
     .project img{
         width: 300px;
     }
