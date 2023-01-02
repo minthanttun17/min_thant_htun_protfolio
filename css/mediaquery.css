@@ -1,0 +1,88 @@
+@media  screen and (max-width: 990px) {
+    .es-container{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 850px){
+    .nav-bar{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 60px;
+        background-color: white;
+        width: 100%;
+        padding: 200px 0;
+        left: -100%;
+        transition: 0.8s;
+        opacity: 0;
+    }    
+
+    .nav-bar.active{
+        left: 0;
+        opacity: 1;
+    }
+
+    .nav-item{
+        padding: 10px;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    main .title h1{
+        font-size: 50px;
+    }
+
+    .info-1{
+        width: 500px;
+    }
+
+    .crossline{
+        width: 500px;
+    }
+
+    .es-container{
+        width: 600px;
+    }
+}
+
+@media  screen and (max-width: 560px) {
+
+    .about-me-text{
+        width: 300px;
+    }
+
+    .bar-bg{
+        max-width: 300px;
+    }
+
+    .crossline{
+        width: 300px;
+    }
+
+    .skills{
+        width: 300px;
+    }
+
+    .info-1{
+        width: 300px;
+    }
+
+    .project img{
+        width: 300px;
+    }
+
+    .education{
+        width: 300px;
+    }
+
+    .association{
+        width: 300px;
+    }
+
+    .es-container{
+        width: 300px;
+    }
+}

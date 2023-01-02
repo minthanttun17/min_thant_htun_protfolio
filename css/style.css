@@ -1,0 +1,433 @@
+*{
+    border: none;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* Header Start */
+header{
+    position: sticky;
+    top: 0;
+}
+
+header nav{    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 8px 0;
+    padding: 12px;
+}
+
+
+header .title{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav-bar .nav-item{
+    list-style: none;
+    padding: 10px;
+}
+
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: ease all 0.5s;
+}
+
+.nav-link:hover{
+    opacity: 0.5;
+}
+
+.hamburger-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.line1, .line2, .line3{
+    margin: 3px 0;
+    background-color: black;
+    height: 3px;
+    width: 25px;
+    transition: all ease 1s;
+}
+
+.line1.active{
+    transform: translateY(3px) rotate(-45deg)
+}
+
+.line3.active{
+    transform: translateY(-3px) rotate(45deg)
+}
+
+.line2.active{
+    opacity: 0;
+    display: none;
+}
+
+/* Header End */
+/* Main Start */
+main{
+    text-align: center;
+    height: 500px;
+    padding-top: 200px;
+}
+
+main .title h1{
+    font-size: 100px;
+}
+
+
+main p{
+    padding-top: 12px;
+    padding-bottom: 50px;
+}
+
+main .myResume{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all ease 1s;
+}   
+
+main .myResume:hover{
+    border: black 2px solid;
+    background: none;
+    color: black;
+}
+
+/* Main End */
+
+/* Projects Start */
+.projects-container{
+    background-color: white;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.header-title h1{
+    text-transform: capitalize;
+}
+
+.underline{
+    background-color: black;
+    width: 80px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.projects-desc{
+    text-align: center;
+    font-size: 18px;
+}
+
+.projects{
+    padding-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.project{
+    padding: 20px;
+    margin: 10px;
+}
+
+.project img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.project h3{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.project .demon{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all ease 0.8s;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.project .github{
+    color: white;
+    background: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: all ease 0.8s;
+}
+
+.project .demon:hover{
+   background-color: black;
+   color: white;
+}
+
+.project .github:hover{
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
+/* Projects End */
+
+/* About me Start */
+.about{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.about .header-title .underline{
+   background-color: white;
+}
+
+.about-me-text{
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.about-me-text h3{
+    padding-bottom: 20px;
+}
+
+.about-me-text p{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.about-me-text a{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.about-me-text a:hover{
+    border: white solid 1px;
+    background: none;
+    color: white;
+}
+/* About me End */
+/* Resume Start */
+.my-cv{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.information h2, .es-container h2{
+    text-transform: uppercase;
+
+}
+
+.info-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.info-1 .personal-info h2{
+    padding-bottom: 20px;
+}
+
+.info-1 .personal-info li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.info-1 .personal-info li span{
+    font-weight: bold;
+}
+
+
+.info-1 .language h2{
+    padding-bottom: 20px;
+}
+
+.info-1 .language li{
+    line-height: 30px;
+}
+
+.skills{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.skills h2{
+    padding-bottom: 10px;
+}
+
+.skills .skill{
+    padding-bottom: 20px;
+}
+
+.bar-bg{
+    background-color: black;
+    height: 10px;
+    max-width: 500px;
+}
+
+.html .bar-percentage{
+    background-color: orangered;
+    width: 90%;
+    height: 10px;
+}
+
+.css .bar-percentage{
+    background-color: orangered;
+    width: 70%;
+    height: 10px;
+}
+
+.bootstrap .bar-percentage{
+    background-color: orangered;
+    width: 60%;
+    height: 10px;
+}
+
+
+.js .bar-percentage{
+    background-color: orangered;
+    width: 55%;
+    height: 10px;
+}
+
+.react .bar-percentage{
+    background-color: orangered;
+    width: 20%;
+    height: 10px;
+}
+
+.skill span{
+    font-weight: bold;
+}
+
+.crossline{
+    background-color: black;
+    height: 1px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.es-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 1100px;
+    background-color: white;
+    padding: 50px;
+}
+
+.education{
+    width: 500px;
+}
+
+.education h2{
+    padding-bottom: 25px;
+    color: orangered;
+}
+
+.education1{
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.education2{
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.education3{
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+
+.education p{
+    font-style: italic;
+    color:rgb(51, 50, 50);
+}
+
+.social-skills{
+    line-height: 25px;
+    padding-top: 50px;
+}
+
+.social-skills h2{
+    padding-bottom: 20px;
+    color: orangered;
+}
+
+.social-skills li{
+    color:rgb(51, 50, 50);
+}
+
+.association{
+    padding-top: 10px;
+    width: 500px;
+}
+
+.association h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.association p:nth-child(3){
+    font-weight: bold;
+}
+
+.association p:nth-child(4){
+    font-style: italic;
+    color:rgb(51, 50, 50);
+}
+
+.association p:nth-child(4) span{
+    font-weight: bold;
+    color: black;
+}
+/* Resume End */
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
