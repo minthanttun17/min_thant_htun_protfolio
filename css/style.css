@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
     border: none;
     margin:0;
@@ -6,6 +7,7 @@
 
 body{
     background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header Start */
@@ -381,6 +383,14 @@ main .myResume:hover{
     line-height: 25px;
 }
 
+.education4{
+    line-height: 25px;
+}
+
+.education4 a{
+    color: black;
+}
+
 .education p{
     font-style: italic;
     color:rgb(51, 50, 50);
@@ -402,12 +412,16 @@ main .myResume:hover{
 
 .association{
     padding-top: 10px;
-    /* width: 500px; */
+    width: 500px;
 }
 
 .association h2{
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.association a{
+    color: black;
 }
 
 .association p:nth-child(3){
@@ -430,4 +444,48 @@ footer{
     background-color: black;
     color: white;
     padding: 50px;
+}
+
+/* Certificate */
+.certificate, .container{
+    padding: 25px;
+}
+
+.certificate h1, .container h1{
+    text-align: center;
+}
+
+.certificate .image , .container .image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    width: 650px;
+}
+
+.certificate img, .container img{
+    width: 300px;
+    padding-top: 10px;
+}
+
+.back-home{
+    padding: 20px;
+    text-align: center;
+}
+
+.back-home a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: all 0.8s ease;
+}
+
+.certificate a:hover, .container a:hover{
+    background-color: black;
+    color: white;
 }

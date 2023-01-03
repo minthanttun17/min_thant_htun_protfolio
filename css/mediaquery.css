@@ -97,5 +97,9 @@
     .association{
         width: 200px;
     }
+
+    certificate .image , .container .image{
+        width: 300px;
+    }
     
 }
