@@ -318,13 +318,6 @@ main .myResume:hover{
     height: 10px;
 }
 
-.bootstrap .bar-percentage{
-    background-color: orangered;
-    width: 60%;
-    height: 10px;
-}
-
-
 .js .bar-percentage{
     background-color: orangered;
     width: 55%;
@@ -333,7 +326,7 @@ main .myResume:hover{
 
 .react .bar-percentage{
     background-color: orangered;
-    width: 20%;
+    width: 10%;
     height: 10px;
 }
 
